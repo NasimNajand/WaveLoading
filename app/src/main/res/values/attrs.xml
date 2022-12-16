@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="starDrawableStyle" format="reference"/>
+    <declare-styleable name="StarDrawer">
+        <attr name="starColor" format="color"/>
+        <attr name="starStrokeWidth" format="dimension"/>
+        <attr name="starGap" format="dimension"/>
+    </declare-styleable>
+</resources>

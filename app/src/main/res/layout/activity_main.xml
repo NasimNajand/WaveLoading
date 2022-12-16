@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <com.example.waveloading.CustomView
+        android:id="@+id/custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:visibility="visible"
+        android:layout_centerInParent="true" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="visible"
+        android:layout_below="@+id/custom_view"/>
+
+    <!--<com.example.waveloading.StarDrawer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:starColor="@android:color/holo_red_dark"
+        android:layerType="software"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar" />-->
+
+</RelativeLayout>
